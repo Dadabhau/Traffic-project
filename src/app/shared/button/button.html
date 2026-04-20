@@ -1,1 +1,10 @@
-<p>button works!</p>
+<span> <ng-content></ng-content></span>
+
+<!--With using class selector-->
+<!-- <ng-content select=".icon"></ng-content> -->
+
+<!--With using ngProjectAs -->
+<span class="icon"><ng-content select="icon"> </ng-content></span>
+
+<!--Fallback content-->
+<!-- <span class="icon"><ng-content select="icon"> ⌲ </ng-content></span> -->
