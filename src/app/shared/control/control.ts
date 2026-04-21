@@ -6,6 +6,7 @@ import { Component, input, Input, ViewEncapsulation } from '@angular/core';
   templateUrl: './control.html',
   styleUrl: './control.scss',
   encapsulation: ViewEncapsulation.None,
+  host: { class: 'control' },
 })
 export class Control {
   // @Input() label = '';
